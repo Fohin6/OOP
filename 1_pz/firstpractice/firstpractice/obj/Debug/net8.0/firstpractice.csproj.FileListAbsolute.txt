@@ -1,0 +1,14 @@
+C:\vsproj\OOP\1_pz\firstpractice\firstpractice\obj\Debug\net8.0\firstpractice.GeneratedMSBuildEditorConfig.editorconfig
+C:\vsproj\OOP\1_pz\firstpractice\firstpractice\obj\Debug\net8.0\firstpractice.AssemblyInfoInputs.cache
+C:\vsproj\OOP\1_pz\firstpractice\firstpractice\obj\Debug\net8.0\firstpractice.AssemblyInfo.cs
+C:\vsproj\OOP\1_pz\firstpractice\firstpractice\obj\Debug\net8.0\firstpractice.csproj.CoreCompileInputs.cache
+C:\vsproj\OOP\1_pz\firstpractice\firstpractice\bin\Debug\net8.0\firstpractice.exe
+C:\vsproj\OOP\1_pz\firstpractice\firstpractice\bin\Debug\net8.0\firstpractice.deps.json
+C:\vsproj\OOP\1_pz\firstpractice\firstpractice\bin\Debug\net8.0\firstpractice.runtimeconfig.json
+C:\vsproj\OOP\1_pz\firstpractice\firstpractice\bin\Debug\net8.0\firstpractice.dll
+C:\vsproj\OOP\1_pz\firstpractice\firstpractice\bin\Debug\net8.0\firstpractice.pdb
+C:\vsproj\OOP\1_pz\firstpractice\firstpractice\obj\Debug\net8.0\firstpractice.dll
+C:\vsproj\OOP\1_pz\firstpractice\firstpractice\obj\Debug\net8.0\refint\firstpractice.dll
+C:\vsproj\OOP\1_pz\firstpractice\firstpractice\obj\Debug\net8.0\firstpractice.pdb
+C:\vsproj\OOP\1_pz\firstpractice\firstpractice\obj\Debug\net8.0\firstpractice.genruntimeconfig.cache
+C:\vsproj\OOP\1_pz\firstpractice\firstpractice\obj\Debug\net8.0\ref\firstpractice.dll
