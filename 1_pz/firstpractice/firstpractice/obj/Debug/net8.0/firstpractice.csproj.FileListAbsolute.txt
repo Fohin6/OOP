@@ -12,3 +12,4 @@ C:\vsproj\OOP\1_pz\firstpractice\firstpractice\obj\Debug\net8.0\refint\firstprac
 C:\vsproj\OOP\1_pz\firstpractice\firstpractice\obj\Debug\net8.0\firstpractice.pdb
 C:\vsproj\OOP\1_pz\firstpractice\firstpractice\obj\Debug\net8.0\firstpractice.genruntimeconfig.cache
 C:\vsproj\OOP\1_pz\firstpractice\firstpractice\obj\Debug\net8.0\ref\firstpractice.dll
+C:\vsproj\OOP\1_pz\firstpractice\firstpractice\obj\Debug\net8.0\firstpractice.sourcelink.json

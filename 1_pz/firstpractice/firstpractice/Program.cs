@@ -30,13 +30,13 @@ namespace firstapp{
                         Console.WriteLine("Нет такого значения");
                         break;
                     case 1:
-                        firstTask app = new firstTask();
+                        new firstTask();
                         break;
                     case 2:
-                        secondTask app2 = new secondTask();
+                        new secondTask();
                         break;
                     case 3:
-                        thirdTask app3 = new thirdTask();
+                        new thirdTask();
                         break;
                     case 0:
                         return;
@@ -73,7 +73,7 @@ namespace firstapp{
 
                 for (int x = -40; x < 41; x++)
                 {
-                    Console.WriteLine($"Значение при {x} = {this.fourth(x)}");
+                    Console.WriteLine($"Значение при x {x} = {this.fourth(x)}");
                 }
                 return;
             }
@@ -116,16 +116,18 @@ namespace firstapp{
                     Console.WriteLine("\r\n[Ошибка] Пожалуйста, введите корректное число!\r\n");
                     continue;
                 }
-                if (this.task2(x, y) == true) { Console.WriteLine("Точка принадлежит графику" + "\n"); }
+                bool belongs = task2(x, y);
+                if (belongs) { Console.WriteLine("Точка принадлежит графику" + "\n"); }
                 else { Console.WriteLine("Точка не принадлежит графику" + "\n"); }
                 return;
             }
         }
         bool task2(double x, double y)
         {
-            if (x >= -5 && x <= 0 && y >= 0 && y <= (x + 5)) { return true; }
-            if (x > 0 && x <= 4 && y >= (7.0 / 4.0 * x - 7) && y <= (-5.0 / 4.0 * x + 5)) { return true; }
-            return false;
+            bool firstArea = x >= -5 && x <= 0 && y >= 0 && y <= x + 5;
+            bool secondArea = x > 0 && x <= 4 && y >= 7.0 / 4.0 * x - 7 && y <= -5.0 / 4.0 * x + 5;
+            bool belongs = firstArea || secondArea;
+            return belongs;
         }
     }
     class thirdTask {
@@ -144,11 +146,38 @@ namespace firstapp{
         }
         private float calculationFloat(float a, float b)
         {
-            return (a - b) * (a - b) - (a * a + 2 * a * b) / (b * b);
+            float c1 = a - b;
+
+            float c2 = (float)Math.Pow(c1, 2);
+
+            float aSquared = (float)Math.Pow(a, 2);
+            float twoAB = 2 * a * b;
+            float numerator = aSquared + twoAB;
+
+            float bSquared = (float)Math.Pow(b, 2);
+
+            float fraction = numerator / bSquared;
+
+            float result = c2 - fraction;
+
+            return result;
         }
         private double calculationDouble(double a, double b)
         {
-            return Math.Pow((a - b), 2) - (Math.Pow(a, 2) + 2 * a * b) / (b * b);
+            double c1 = a - b;
+            double c2 = Math.Pow(c1, 2);
+
+            double aSquared = Math.Pow(a, 2);
+            double twoAB = 2 * a * b;
+            double numerator = aSquared + twoAB;
+
+            double bSquared = Math.Pow(b, 2);
+
+            double fraction = numerator / bSquared;
+
+            double result = c2 - fraction;
+
+            return result;
         }
     }
 }
