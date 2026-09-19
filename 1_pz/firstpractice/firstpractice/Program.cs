@@ -117,7 +117,7 @@ namespace firstapp{
                     continue;
                 }
 
-                if (CheckBelonging(x, y)) 
+                if (task2(x, y)) 
                 { 
                     Console.WriteLine("Точка принадлежит графику\n"); 
                 }
@@ -144,8 +144,8 @@ namespace firstapp{
         public void Run()
         {
             Console.WriteLine("\n--- Результаты Задания 3 ---");
-            Console.WriteLine($"Значение при типе данных float:  {CalculateFloat(a, b)}");
-            Console.WriteLine($"Значение при типе данных double: {CalculateDouble(a2, b2)}\n");
+            Console.WriteLine($"Значение при типе данных float:  {calculateFloat(a, b)}");
+            Console.WriteLine($"Значение при типе данных double: {calculateDouble(a2, b2)}\n");
         }
         private float calculationFloat(float a, float b)
         {
