@@ -144,8 +144,8 @@ namespace firstapp{
         public void Run()
         {
             Console.WriteLine("\n--- Результаты Задания 3 ---");
-            Console.WriteLine($"Значение при типе данных float:  {CalculateFloat(_aFloat, _bFloat)}");
-            Console.WriteLine($"Значение при типе данных double: {CalculateDouble(_aDouble, _bDouble)}\n");
+            Console.WriteLine($"Значение при типе данных float:  {CalculateFloat(a, b)}");
+            Console.WriteLine($"Значение при типе данных double: {CalculateDouble(a2, b2)}\n");
         }
         private float calculationFloat(float a, float b)
         {
