@@ -30,15 +30,15 @@ namespace firstapp{
                         Console.WriteLine("Нет такого значения");
                         break;
                     case 1:
-                        var task1 = new FirstTask();
+                        var task1 = new firstTask();
                         task1.Run();
                         break;
                     case 2:
-                        var task2 = new SecondTask();
+                        var task2 = new secondTask();
                         task2.Run();
                         break;
                     case 3:
-                        var task3 = new ThirdTask();
+                        var task3 = new thirdTask();
                         task3.Run();
                         break;
                     case 0:
