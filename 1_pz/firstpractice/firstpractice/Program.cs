@@ -137,10 +137,10 @@ namespace firstapp{
         }
     }
     class thirdTask {
-        public float a = 1000;
-        public float b = 0.0001f;
-        public double a2 = 1000;
-        public double b2 = 0.0001f;
+        private float a = 1000;
+        private float b = 0.0001f;
+        private double a2 = 1000;
+        private double b2 = 0.0001f;
         public void Run()
         {
             Console.WriteLine("\n--- Результаты Задания 3 ---");
