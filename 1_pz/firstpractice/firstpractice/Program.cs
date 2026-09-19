@@ -30,13 +30,16 @@ namespace firstapp{
                         Console.WriteLine("Нет такого значения");
                         break;
                     case 1:
-                        new firstTask();
+                        var task1 = new FirstTask();
+                        task1.Run();
                         break;
                     case 2:
-                        new secondTask();
+                        var task2 = new SecondTask();
+                        task2.Run();
                         break;
                     case 3:
-                        new thirdTask();
+                        var task3 = new ThirdTask();
+                        task3.Run();
                         break;
                     case 0:
                         return;
@@ -47,13 +50,9 @@ namespace firstapp{
     }
     class firstTask
     {
-        public firstTask()
+        public void Run()
         {
-            init();
-        }
-        void init()
-        {
-            while (true)
+             while (true)
             {
                 Console.Write("Введите значение переменной N: ");
                 if (!int.TryParse(Console.ReadLine(), out int n))
@@ -92,15 +91,16 @@ namespace firstapp{
         }
         double fourth(int x)
         {
-            return 5 * Math.Pow(x, 3) * Math.Pow((1 / Math.Pow(x, 2)) + (1 / Math.Pow(x, 3)), 1.0 / 5.0);
+            double expressionInside = (1.0 / Math.Pow(x, 2)) + (1.0 / Math.Pow(x, 3));
+            if (expressionInside < 0)
+            {
+                return 5 * Math.Pow(x, 3) * -Math.Pow(-expressionInside, 1.0 / 5.0);
+            }
+                return 5 * Math.Pow(x, 3) * Math.Pow(expressionInside, 1.0 / 5.0);
+            }
         }
-    }
     class secondTask {
-        public secondTask()
-        {
-            init();
-        }
-        void init()
+        public void Run()
         {
             while (true)
             {
@@ -116,9 +116,15 @@ namespace firstapp{
                     Console.WriteLine("\r\n[Ошибка] Пожалуйста, введите корректное число!\r\n");
                     continue;
                 }
-                bool belongs = task2(x, y);
-                if (belongs) { Console.WriteLine("Точка принадлежит графику" + "\n"); }
-                else { Console.WriteLine("Точка не принадлежит графику" + "\n"); }
+
+                if (CheckBelonging(x, y)) 
+                { 
+                    Console.WriteLine("Точка принадлежит графику\n"); 
+                }
+                else 
+                { 
+                    Console.WriteLine("Точка не принадлежит графику\n"); 
+                }
                 return;
             }
         }
@@ -135,14 +141,11 @@ namespace firstapp{
         public float b = 0.0001f;
         public double a2 = 1000;
         public double b2 = 0.0001f;
-        public thirdTask()
+        public void Run()
         {
-            init();
-        }
-        void init()
-        {
-            Console.WriteLine($"Значения при типе данных float: {this.calculationFloat(a, b)}");
-            Console.WriteLine($"Значения при типе данных double: {this.calculationDouble(a2, b2)}" + "\n");
+            Console.WriteLine("\n--- Результаты Задания 3 ---");
+            Console.WriteLine($"Значение при типе данных float:  {CalculateFloat(_aFloat, _bFloat)}");
+            Console.WriteLine($"Значение при типе данных double: {CalculateDouble(_aDouble, _bDouble)}\n");
         }
         private float calculationFloat(float a, float b)
         {
