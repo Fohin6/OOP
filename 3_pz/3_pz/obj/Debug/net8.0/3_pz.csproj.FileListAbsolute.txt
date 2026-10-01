@@ -1,0 +1,15 @@
+C:\vsproj\OOP\3_pz\3_pz\obj\Debug\net8.0\3_pz.GeneratedMSBuildEditorConfig.editorconfig
+C:\vsproj\OOP\3_pz\3_pz\obj\Debug\net8.0\3_pz.AssemblyInfoInputs.cache
+C:\vsproj\OOP\3_pz\3_pz\obj\Debug\net8.0\3_pz.AssemblyInfo.cs
+C:\vsproj\OOP\3_pz\3_pz\obj\Debug\net8.0\3_pz.csproj.CoreCompileInputs.cache
+C:\vsproj\OOP\3_pz\3_pz\obj\Debug\net8.0\3_pz.sourcelink.json
+C:\vsproj\OOP\3_pz\3_pz\bin\Debug\net8.0\3_pz.exe
+C:\vsproj\OOP\3_pz\3_pz\bin\Debug\net8.0\3_pz.deps.json
+C:\vsproj\OOP\3_pz\3_pz\bin\Debug\net8.0\3_pz.runtimeconfig.json
+C:\vsproj\OOP\3_pz\3_pz\bin\Debug\net8.0\3_pz.dll
+C:\vsproj\OOP\3_pz\3_pz\bin\Debug\net8.0\3_pz.pdb
+C:\vsproj\OOP\3_pz\3_pz\obj\Debug\net8.0\3_pz.dll
+C:\vsproj\OOP\3_pz\3_pz\obj\Debug\net8.0\refint\3_pz.dll
+C:\vsproj\OOP\3_pz\3_pz\obj\Debug\net8.0\3_pz.pdb
+C:\vsproj\OOP\3_pz\3_pz\obj\Debug\net8.0\3_pz.genruntimeconfig.cache
+C:\vsproj\OOP\3_pz\3_pz\obj\Debug\net8.0\ref\3_pz.dll

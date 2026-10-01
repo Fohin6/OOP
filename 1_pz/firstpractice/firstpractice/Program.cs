@@ -125,7 +125,7 @@ namespace firstapp{
         bool task2(double x, double y)
         {
             bool firstArea = x >= -5 && x <= 0 && y >= 0 && y <= x + 5;
-            bool secondArea = x > 0 && x <= 4 && y >= 7.0 / 4.0 * x - 7 && y <= -5.0 / 4.0 * x + 5;
+            bool secondArea = x >= 0 && x <= 5 && y >= (7.0 / 5.0 * x - 7) && y <= (-x + 5);
             bool belongs = firstArea || secondArea;
             return belongs;
         }
