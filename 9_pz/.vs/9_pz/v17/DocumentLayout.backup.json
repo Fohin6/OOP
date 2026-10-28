@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\vsproj\\OOP\\9_pz\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9074EEAF-9EDE-479C-A2EE-0A978B5FB217}|Lab9.Tests\\Lab9.Tests.csproj|c:\\vsproj\\oop\\9_pz\\lab9.tests\\diparrtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9074EEAF-9EDE-479C-A2EE-0A978B5FB217}|Lab9.Tests\\Lab9.Tests.csproj|solutionrelative:lab9.tests\\diparrtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9074EEAF-9EDE-479C-A2EE-0A978B5FB217}|Lab9.Tests\\Lab9.Tests.csproj|c:\\vsproj\\oop\\9_pz\\lab9.tests\\containstest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9074EEAF-9EDE-479C-A2EE-0A978B5FB217}|Lab9.Tests\\Lab9.Tests.csproj|solutionrelative:lab9.tests\\containstest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE099174-AE63-4105-816B-E60558D577AF}|9_pz\\9_pz.csproj|c:\\vsproj\\oop\\9_pz\\9_pz\\calc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE099174-AE63-4105-816B-E60558D577AF}|9_pz\\9_pz.csproj|solutionrelative:9_pz\\calc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE099174-AE63-4105-816B-E60558D577AF}|9_pz\\9_pz.csproj|c:\\vsproj\\oop\\9_pz\\9_pz\\diparray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE099174-AE63-4105-816B-E60558D577AF}|9_pz\\9_pz.csproj|solutionrelative:9_pz\\diparray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE099174-AE63-4105-816B-E60558D577AF}|9_pz\\9_pz.csproj|c:\\vsproj\\oop\\9_pz\\9_pz\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE099174-AE63-4105-816B-E60558D577AF}|9_pz\\9_pz.csproj|solutionrelative:9_pz\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DipArrTests.cs",
+              "DocumentMoniker": "C:\\vsproj\\OOP\\9_pz\\Lab9.Tests\\DipArrTests.cs",
+              "RelativeDocumentMoniker": "Lab9.Tests\\DipArrTests.cs",
+              "ToolTip": "C:\\vsproj\\OOP\\9_pz\\Lab9.Tests\\DipArrTests.cs",
+              "RelativeToolTip": "Lab9.Tests\\DipArrTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHMAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-28T13:24:34.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ContainsTest.cs",
+              "DocumentMoniker": "C:\\vsproj\\OOP\\9_pz\\Lab9.Tests\\ContainsTest.cs",
+              "RelativeDocumentMoniker": "Lab9.Tests\\ContainsTest.cs",
+              "ToolTip": "C:\\vsproj\\OOP\\9_pz\\Lab9.Tests\\ContainsTest.cs",
+              "RelativeToolTip": "Lab9.Tests\\ContainsTest.cs",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAqwH4AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-28T13:24:25.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DipArray.cs",
+              "DocumentMoniker": "C:\\vsproj\\OOP\\9_pz\\9_pz\\DipArray.cs",
+              "RelativeDocumentMoniker": "9_pz\\DipArray.cs",
+              "ToolTip": "C:\\vsproj\\OOP\\9_pz\\9_pz\\DipArray.cs",
+              "RelativeToolTip": "9_pz\\DipArray.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-28T12:56:40.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Calc.cs",
+              "DocumentMoniker": "C:\\vsproj\\OOP\\9_pz\\9_pz\\Calc.cs",
+              "RelativeDocumentMoniker": "9_pz\\Calc.cs",
+              "ToolTip": "C:\\vsproj\\OOP\\9_pz\\9_pz\\Calc.cs",
+              "RelativeToolTip": "9_pz\\Calc.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-28T12:11:27.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\vsproj\\OOP\\9_pz\\9_pz\\Program.cs",
+              "RelativeDocumentMoniker": "9_pz\\Program.cs",
+              "ToolTip": "C:\\vsproj\\OOP\\9_pz\\9_pz\\Program.cs",
+              "RelativeToolTip": "9_pz\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-28T12:07:34.901Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
