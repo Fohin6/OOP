@@ -1,0 +1,15 @@
+C:\vsproj\OOP\10_pz\10_pz\bin\Debug\net8.0\10_pz.exe
+C:\vsproj\OOP\10_pz\10_pz\bin\Debug\net8.0\10_pz.deps.json
+C:\vsproj\OOP\10_pz\10_pz\bin\Debug\net8.0\10_pz.runtimeconfig.json
+C:\vsproj\OOP\10_pz\10_pz\bin\Debug\net8.0\10_pz.dll
+C:\vsproj\OOP\10_pz\10_pz\bin\Debug\net8.0\10_pz.pdb
+C:\vsproj\OOP\10_pz\10_pz\obj\Debug\net8.0\10_pz.GeneratedMSBuildEditorConfig.editorconfig
+C:\vsproj\OOP\10_pz\10_pz\obj\Debug\net8.0\10_pz.AssemblyInfoInputs.cache
+C:\vsproj\OOP\10_pz\10_pz\obj\Debug\net8.0\10_pz.AssemblyInfo.cs
+C:\vsproj\OOP\10_pz\10_pz\obj\Debug\net8.0\10_pz.csproj.CoreCompileInputs.cache
+C:\vsproj\OOP\10_pz\10_pz\obj\Debug\net8.0\10_pz.sourcelink.json
+C:\vsproj\OOP\10_pz\10_pz\obj\Debug\net8.0\10_pz.dll
+C:\vsproj\OOP\10_pz\10_pz\obj\Debug\net8.0\refint\10_pz.dll
+C:\vsproj\OOP\10_pz\10_pz\obj\Debug\net8.0\10_pz.pdb
+C:\vsproj\OOP\10_pz\10_pz\obj\Debug\net8.0\10_pz.genruntimeconfig.cache
+C:\vsproj\OOP\10_pz\10_pz\obj\Debug\net8.0\ref\10_pz.dll
