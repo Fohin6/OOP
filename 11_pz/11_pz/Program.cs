@@ -54,7 +54,12 @@ namespace Lab11
         public override int GetHashCode() => HashCode.Combine(Name, Age, University, Course);
         public override string ToString() => $"Student: {Name}, {Age} лет, {University}, {Course} курс";
     }
-
+  /*################################
+  #  __ __  _  _ _  ___  _  _     #
+  # |  \  \| || | || . || || |    #
+  # |     || ||   ||   || || |_   #
+  # |_|_|_||_||_|_||_|_||_||___|  #
+  ################################*/
     public class HashtableDemo
     {
         public Hashtable Table = new Hashtable();
